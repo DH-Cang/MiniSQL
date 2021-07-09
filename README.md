@@ -12,6 +12,10 @@ This database has been inserted 10000 records in table student2.
 
 use Makefile in .\source
 
+## Known Bugs
+DELETE FROM table WHERE ... may fail if the condition is range of float
+some syntax detection may fail
+
 ## Author
 
 陈德瀚 康雅琪 庞懿非
